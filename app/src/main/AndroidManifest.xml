@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MultiScreen"
         tools:targetApi="31">
         <activity
+            android:name=".Sleptsov"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Uruguay"
             android:exported="false">
             <meta-data
